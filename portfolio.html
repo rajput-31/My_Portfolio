@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2eda067a07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi ,I'm <span>Harshada Rajput</span><br>  From Nashik </h1>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------about navbar-------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A web designer is a professional who specializes in creating visually appealing and functional websites.
+                   This role involves a combination of artistic, technical, and problem-solving skills to design and build
+                   websites that effectively communicate a message or serve a specific purpose.While not all web designers
+                   are required to code, many possess basic knowledge of HTML, CSS, and sometimes JavaScript. This allows
+                   them to understand the technical aspects of web development and collaborate effectively with developers.</p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('cource')">Cource</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <span>Web development</span><br>Web app development</li>
+                           <li> <span>SQL developer</span><br>Designing software databases</li>
+                        <li> <span>UI/UX</span><br>Designing web /App interfaces</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents " id="cource">
+                    <ul>
+                        <li><span>2023-Currunt</span><br>Pursuing java development cource in SEED Infotech</li>
+                           <li> <span>2022-2023</span><br>Learn on great learning platform</li>
+                        <li> <span>2021-2022</span><br>Front end completed in 2nd year</li>
+                        <li> <span>2020-2021</span><br>Begining in technical world</li>
+                    </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-Currunt</span><br>Completing cource at seed infotech from Pune</li>
+                        <li><span>2023-Currunt</span><br>Pursuing in BCA 3rd year from Nashik</li>
+                           <li> <span>2021</span><br>12th from Shirpur</li>
+                        <li> <span>2019</span><br>10th from Shirpur</li>
+                    </ul>
+                   </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-------------------------------------------services navbar----------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1><br>
+        <div class="services-list">
+            
+                
+            
+            <div>
+                <i class="fa-solid fa-code"></i>
+
+                <h2>Web Design</h2>
+                <p>Web design is a crucial aspect of creating a successful online presence. A well-designed website not
+                     only looks aesthetically pleasing but also enhances user experience and can contribute to the overall 
+                     success of a business or individual.</p>
+                       <a href="#">Learn more</a>
+            </div>
+
+            <br>
+        
+
+       
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL Development</h2>
+                <p>SQL (Structured Query Language) development involves working with databases to design, implement, 
+                    and manage data structures and queries. </p>
+                       <a href="#">Learn more</a>
+            </div>
+            
+
+            <br>
+            
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design services are essential for creating user-friendly and visually appealing digital products. 
+                    </p>
+                       <a href="#">Learn more</a>
+            </div>
+        
+            
+        
+
+        </div>
+
+    </div>
+</div>
+
+
+<!------------------------------- main portfolio--------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1><br>
+        <div class="work-list">
+            <div class="work">
+
+                <img src="img/work1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="img/work2.jpg">
+                <div class="layer">
+                    <h3>Daily steps App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="img/work3.jpg">
+                
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>The app connect you to the talented people around the world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    
+</div>
+
+<!---------------------------------contact--------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>harshadarrajput2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9322321604</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.linkedin/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Harshada_Rajput_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text "name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Harshada Made with <i class="fa-solid fa-heart"></i> easy portfolio</p>
+    </div>
+</div>
+
+
+<!-------------------------------------------------------datasheet connect--------------------------------------------------->
+    
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw-upfs9RUZBWF5ilqZDJJJ3mSCcO-CkbLc6dFjTOs9BiSwSrT3uRglvBVh_17doeNL/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
